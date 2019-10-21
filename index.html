@@ -7,7 +7,8 @@
     <title>NEPTUNE - Jessie Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Jessie Lee's Personal Website" />
-    <meta name="keywords" content="portfolio, personal website, Jessie Lee, Neptune, html5, css3, mobile first, responsive" />
+    <meta name="keywords"
+        content="portfolio, personal website, Jessie Lee, Neptune, html5, css3, mobile first, responsive" />
     <meta name="author" content="Jessie Lee" />
 
     <!-- Facebook and Twitter integration -->
@@ -42,7 +43,15 @@
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <![endif]-->
+
+    <!-- p5.js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js" type="text/javascript"></script>
+
+    <script src="js/mySketch.js" type="text/javascript"></script>
+
 
 </head>
 
@@ -64,6 +73,7 @@
                                 <li class="has-dropdown active">
                                     <a href="portfolio.html">Portfolio</a>
                                     <ul class="dropdown">
+                                        <li><a href="interactiondesign.html">Interaction Design</a></li>
                                         <li><a href="webdesign.html">Web Design</a></li>
                                         <li><a href="appdesign.html">APP Design</a></li>
                                         <li><a href="infodesign.html">Info Design</a></li>
@@ -92,28 +102,31 @@
             </div>
         </nav>
 
-
-        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="display-t js-fullheight">
-                            <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                                <h1 style="font-family: impact; font-size:70px;">Hi There! I am Jessie Lee, a UX designer <br>& front-end developer.
-                                </h1>
-                                <h2> Welcome to my planet! Feel free to explore it!</h2>
-                                <p>
-                                    <a class="btn btn-primary btn-lg btn-demo" href="portfolio.pdf"></i> Portfolio</a>
-                                    <a
-                                        class="btn btn-primary btn-lg btn-learn" href="blog.html">My Blog</a>
-                                </p>
+        <div id="sketch-holder">
+            <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="display-t js-fullheight">
+                                <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                                    <h1 style="font-family: impact; font-size:70px;">Hi There!
+                                        <br>I am Jessie Lee, 
+                                        <br>a passionate UX designer.
+                                    </h1>
+                                    <h2> Welcome to my planet! Feel free to explore it!</h2>
+                                    <p>
+                                        <a class="btn btn-primary btn-lg btn-demo" href="portfolio.pdf"></i>
+                                            Portfolio</a>
+                                        <a class="btn btn-primary btn-lg btn-learn" href="blog.html">My Blog</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </div>
 
         <!-- motto -->
 
@@ -121,7 +134,8 @@
             <div class="container">
                 <div class="row animate-box">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2 style="color:aliceblue;font-size:2em">I believe in the power of design<br> to make life easier and happier.</h2>
+                        <h2 style="color:aliceblue;font-size:2em">I believe in the power of design<br> to make life
+                            easier and happier.</h2>
                     </div>
                 </div>
             </div>
@@ -141,16 +155,26 @@
                         </div>
                     </div>
                     <div class="col-md-7 animate-box">
-                        <p><br>Hi, I am Jessie Lee, a passionate UX student.<br>Currently, I am doing <b>Master of Interaction Design and Electronic Arts</b>                            at <b>The University of Sydney</b>.</p>
+                        <p><br>Hi, I am Jessie Lee, a passionate UX student.<br>Currently, I am doing <b>Master of
+                                Interaction Design and Electronic Arts</b> at <b>The University of Sydney</b>.</p>
                         <blockquote>
-                            <p>I am enchanted by the magic of transforming cold hard programming language into compelling untold
-                                stories that unveil mysteries. <br>I’m passionate about empathizing and translating user
-                                needs into simple and delightful products that solve problems. </p>
+                            <p>I’m passionate about empathizing and translating user
+                                needs into simple and delightful products that solve problems. 
+                                <br>I am enchanted by the magic of transforming cold hard data into
+                                compelling untold stories that unveil mysteries.
+                            
+                            </p>
                         </blockquote>
-                        <p><br>NEPTUNE is my personal portfolio website, including Blog and Portfolio. <br> In my <b>Blog</b>,
-                            you have a look on News Wiring, Event Planning, Photography, Video Clip, and Magazine. <br> In
-                            my <b>Portfolio</b>, you can view my works of Web Design, Application Design, Information Design,
-                            and Graphic Design. <br> Feel free to have a browse and contact me <a href="mailto:jessielee1230@gmail.com">here</a>!</p>
+                        <p><br>NEPTUNE is my website with Portfolio and Blog. 
+                            <br>
+                            In my <b>Portfolio</b>, you can view my previous works of Interaction Design, Web Design, Application Design, Information
+                            Design,
+                            and Graphic Design.
+
+                            <br> In my <b>Blog</b>,
+                            you can have a look on my Design Thinking process and storytelling works. 
+                            Feel free to have a browse and contact me <a
+                                href="mailto:jessielee1230@gmail.com">here</a>!</p>
                     </div>
                 </div>
             </div>
@@ -175,13 +199,14 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-hotairballoon"></i>
-							</span>
+                                    <i class="icon-hotairballoon"></i>
+                                </span>
                                 <div class="feature-copy">
-                                    <h3>Social Media Marketing</h3>
-                                    <p>Including Facebook, Twitter, Instagram, SnapChat, WeChat and Sina Micro Blog.
+                                    <h3>Interaction Design</h3>
+                                    <p>I worked on Kinect camera, projection, and Arduino projects.
                                     </p>
-                                    <p><a href="eventplanning.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p><a href="interactiondesign.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -189,12 +214,13 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-search"></i>
-							</span>
+                                    <i class="icon-search"></i>
+                                </span>
                                 <div class="feature-copy">
-                                    <h3>Event Planning</h3>
-                                    <p>I hosted several events at AustCham South China and Jinan University.</p>
-                                    <p><a href="eventplanning.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <h3>User Research</h3>
+                                    <p>I am currently conducting a research about designing a flow experience for general public in data visualisaiton. </p>
+                                    <p><a href="research.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
 
@@ -202,12 +228,13 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-wallet"></i>
-							</span>
+                                    <i class="icon-wallet"></i>
+                                </span>
                                 <div class="feature-copy">
-                                    <h3>News Writing</h3>
-                                    <p>I love writing, telling compelling stories and recording history.</p>
-                                    <p><a href="newswriting.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <h3>Storytelling</h3>
+                                    <p>I love all forms of storytelling, including writing, visuals, and video. </p>
+                                    <p><a href="newswriting.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -219,13 +246,13 @@
 
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-wine"></i>
-							</span>
+                                    <i class="icon-wine"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Web Design</h3>
-                                    <p>I am passionate about transforming cold hard programming languages into vivid responsive
-                                        websites.</p>
-                                    <p><a href="webdesign.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p>I am passionate about building up vivid and repsonsive websites to help business grow.</p>
+                                    <p><a href="webdesign.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
 
@@ -234,12 +261,14 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-genius"></i>
-							</span>
+                                    <i class="icon-genius"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Application Design</h3>
-                                    <p>I am facinated with translating user's needs into delightful products that solve problems.</p>
-                                    <p><a href="appdesign.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p>I am facinated with translating user's needs into delightful products that solve
+                                        problems.</p>
+                                    <p><a href="appdesign.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
 
@@ -247,13 +276,14 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-chat"></i>
-							</span>
+                                    <i class="icon-chat"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Information Design</h3>
-                                    <p>I am into decoding the mysterious data into lively infographics that unveil compelling
-                                        untold stories.</p>
-                                    <p><a href="infodesign.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p>I am into decoding the mysterious data into lively infographics that unveil
+                                        compelling untold stories.</p>
+                                    <p><a href="infodesign.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -264,12 +294,13 @@
 
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-wine"></i>
-							</span>
+                                    <i class="icon-wine"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Graphic Design</h3>
                                     <p>Including postcards, poster, logo and several paintings.</p>
-                                    <p><a href="graphicdesign.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p><a href="graphicdesign.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
 
@@ -278,13 +309,15 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-genius"></i>
-							</span>
+                                    <i class="icon-genius"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Photography</h3>
-                                    <p>View the world throught the len of the camera. Freeze a glimpse of flash into forever.
+                                    <p>View the world throught the len of the camera. Freeze a glimpse of flash into
+                                        forever.
                                     </p>
-                                    <p><a href="photography.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p><a href="photography.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
 
@@ -292,12 +325,13 @@
                         <div class="col-md-4 animate-box">
                             <div class="feature-left">
                                 <span class="icon">
-								<i class="icon-chat"></i>
-							</span>
+                                    <i class="icon-chat"></i>
+                                </span>
                                 <div class="feature-copy">
                                     <h3>Video Clip</h3>
                                     <p>Life is amazing and the video is the best recorder!</p>
-                                    <p><a href="videoclip.html" target="_blank">Know More <i class="icon-arrow-right22"></i></a></p>
+                                    <p><a href="videoclip.html" target="_blank">Know More <i
+                                                class="icon-arrow-right22"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +351,7 @@
                 <div class="col-md-6 animate-box">
                     <div class="heading">
 
-                        <h2><a href="portfolio.html" style="color:white" target="_blank">My Design Wonderland</a></h2>
+                        <h2><a href="portfolio.html" style="color:white" target="_blank">Jessicorn's Wonderland</a></h2>
 
                         <p>Creativity is a wild mind and a disciplined eye.</p>
                     </div>
@@ -326,19 +360,87 @@
                     <aside id="fh5co-hero">
                         <div class="flexslider">
                             <ul class="slides">
+
+                                    <li style="background-image: url(images/img_bg_4.jpg);">
+                                        <a href="https://youtu.be/rU4Q2JNFAvg" style="color:black"
+                                            target="_blank">
+                                            <div class="overlay-gradient"></div>
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                                        <div class="slider-text-inner">
+                                                            <div class="desc">
+                                                                <h2>Theatre for You</h2>
+                                                                <p>'Theatre For You' was designed to create a playful and engaging interactive space at the Footbridge Gallery on the campus of the University of Sydney. It utilises a Kinect camera sensor to capture users‘ contours and presents them in an artistic silhouette of colourful particles, thereby incorporating the users as part of the artwork. </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li style="background-image: url(images/img_bg_2.jpg);">
+                                        <a href="http://wondersmile.fun/" style="color:black"
+                                            target="_blank">
+                                            <div class="overlay-gradient"></div>
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                                        <div class="slider-text-inner">
+                                                            <div class="desc">
+                                                                <h2>WonderSmile</h2>
+                                                                <p>This is a two week web project for Australian Brand Invisable Aligner Brand - Wonder Smile.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li style="background-image: url(images/img_bg_5.jpg);">
+                                        <a href="https://www.ocheers.com.au/" style="color:black"
+                                            target="_blank">
+                                            <div class="overlay-gradient"></div>
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                                        <div class="slider-text-inner">
+                                                            <div class="desc">
+                                                                <h2>O'Cheer</h2>
+                                                                <p>O'Cheer is an Australian non-alcoholic sparkling grape juice. This is a freelancing website project built on WordPress. </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
                                 <li style="background-image: url(images/img_bg_1.jpg);">
-                                    <a href="https://jessielee1230.github.io/HPV-Vaccine/" style="color:black" target="_blank">
+                                    <a href="https://jessielee1230.github.io/HPV-Vaccine/" style="color:black"
+                                        target="_blank">
                                         <div class="overlay-gradient"></div>
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                                <div
+                                                    class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
                                                     <div class="slider-text-inner">
                                                         <div class="desc">
                                                             <h2>HPV Back & Forth</h2>
-                                                            <p>This is the website introducing HPV vaccine. HPV–2 was officially
-                                                                introduced to China at the end of 2017. To answer people’s
-                                                                questions about this unfamiliar vaccine in China, I designed
-                                                                and coded this website for the popularization of HPV, HPV
+                                                            <p>This is the website introducing HPV vaccine. HPV–2 was
+                                                                officially
+                                                                introduced to China at the end of 2017. To answer
+                                                                people’s
+                                                                questions about this unfamiliar vaccine in China, I
+                                                                designed
+                                                                and coded this website for the popularization of HPV,
+                                                                HPV
                                                                 vaccine, and its connection with cervical cancer.
                                                             </p>
                                                         </div>
@@ -349,37 +451,21 @@
                                     </a>
                                 </li>
 
-                                <li style="background-image: url(images/img_bg_2.jpg);">
-                                    <a href="http://jessielee.space/NEPTUNE/" style="color:black" target="_blank">
-                                        <div class="overlay-gradient"></div>
-                                        <div class="container-fluid">
-                                            <div class="row">
-                                                <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-                                                    <div class="slider-text-inner">
-                                                        <div class="desc">
-                                                            <h2>Neptune</h2>
-                                                            <p>This is my first personal website. I like Neptune so it becomes
-                                                                the name of my online zone. Here you can visit my blog and
-                                                                previous design and photography works.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
                                 <li style="background-image: url(images/img_bg_3.jpg);">
-                                    <a href="http://jessielee.space/IMPACT/intro.html" style="color:black" target="_blank">
+                                    <a href="https://jessielee1230.github.io/IMPACT/" style="color:black"
+                                        target="_blank">
                                         <div class="overlay-gradient"></div>
                                         <div class="container-fluid">
                                             <div class="row">
-                                                <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+                                                <div
+                                                    class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
                                                     <div class="slider-text-inner">
                                                         <div class="desc">
                                                             <h2>Impact Zone</h2>
-                                                            <p>This is a website introducing the IMPACT font. Here you can get
-                                                                an overall understanding of IMPACT, the web safe font, including
+                                                            <p>This is a website introducing the IMPACT font. Here you
+                                                                can get
+                                                                an overall understanding of IMPACT, the web safe font,
+                                                                including
                                                                 its history and ways of use.</p>
                                                         </div>
                                                     </div>
@@ -412,13 +498,15 @@
                         <a href="#" class="blog-bg" style="background-image: url(images/blog-1.jpg);"></a>
                         <div class="blog-text">
                             <span class="posted_on">July 6th 2016</span>
-                            <h3><a href="blog.html" target="_blank">News Writing</a></h3>
-                            <p>I am fascinated with the magic of exchanging thoughts and sharing different values to sparkle
+                            <h3><a href="https://medium.com/@jessielee1230" target="_blank">News Writing</a></h3>
+                            <p>I am fascinated with the magic of exchanging thoughts and sharing different values to
+                                sparkle
                                 new ideas through writing.</p>
                             <ul class="stuff">
                                 <!-- <li><i class="icon-heart2"></i>249</li>
                                 <li><i class="icon-eye2"></i>1,308</li> -->
-                                <li><a href="blog.html" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
+                                <li><a href="blog.html" target="_blank">Read More<i class="icon-arrow-right22"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -429,10 +517,12 @@
                         <div class="blog-text">
                             <span class="posted_on">May 15th 2016</span>
                             <h3><a href="https://unsplash.com/@jessielee1230" target="_blank">Photography</a></h3>
-                            <p>There is a garden in her face where roses and white lilies grow; a heavenly paradise is that
+                            <p>There is a garden in her face where roses and white lilies grow; a heavenly paradise is
+                                that
                                 place where in all pleasant fruits do flow.</p>
                             <ul class="stuff">
-                                <li><a href="https://unsplash.com/@jessielee1230" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
+                                <li><a href="https://unsplash.com/@jessielee1230" target="_blank">Read More<i
+                                            class="icon-arrow-right22"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -442,10 +532,11 @@
                         <a href="#" class="blog-bg" style="background-image: url(images/home-video.jpg);"></a>
                         <div class="blog-text">
                             <span class="posted_on">June 20th 2015</span>
-                            <h3><a href="videoclip.html" target="_blank">Video Clip</a></h3>
+                            <h3><a href="https://www.youtube.com/channel/UCFZTeyB6dBi_wCTSM_shDJw" target="_blank">Video Clip</a></h3>
                             <p>Life has lots of wonderful moments like jwerllery. Video is the jwerllery box.</p>
                             <ul class="stuff">
-                                <li><a href="videoclip.html" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
+                                <li><a href="videoclip.html" target="_blank">Read More<i
+                                            class="icon-arrow-right22"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -461,8 +552,7 @@
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                     <h2>Where am I?</h2>
-                    <p>I am a Contonese girl from Guangzhou, the capital city of Canton, South China.<br> Cantonese values:
-                        innovate creativity, challenge difficulty, <br>embrace diversity, and be down to earth.
+                    <p>I am currently based in Sydney.
                     </p>
                     <p><a href="images/qrcode.jpg" target="_blank" class="btn btn-default btn-lg">Contact Me</a></p>
                 </div>
@@ -477,7 +567,8 @@
             <div class="row row-pb-md">
                 <div class="col-md-4 fh5co-widget">
                     <h4>NEPTUNE</h4>
-                    <p>I am Jessie Lee, <br>UX designer & front-end developer.<br> Nice to meet you here!<br> NEPTUNE is my
+                    <p>I am Jessie Lee, <br>a UX designer.<br> Nice to meet you here!<br> NEPTUNE B612 is
+                        my
                         personal website.<br> Feel free to explore my planet!</p>
                 </div>
                 <div class="col-md-2 col-md-push-1 fh5co-widget">
@@ -493,10 +584,10 @@
                 <div class="col-md-2 col-md-push-1 fh5co-widget">
                     <h4>Categories</h4>
                     <ul class="fh5co-footer-links">
-                        <li><a href="newswriting.html" target="_blank">Journalism</a></li>
-                        <li><a href="appdesign.html" target="_blank">Digital Design</a></li>
+                        <li><a href="interactiondesign.html" target="_blank">Interaction Design</a></li>
+                        <li><a href="webdesign.html" target="_blank">Web Design</a></li>
+                        <li><a href="appdesign.html" target="_blank">App Design</a></li>
                         <li><a href="eventplanning.html" target="_blank">Marketing</a></li>
-                        <li><a href="webdesign.html" target="_blank">Web Develope</a></li>
                     </ul>
                 </div>
 
@@ -505,7 +596,7 @@
                     <ul class="fh5co-footer-links">
                         <li>The University of Sydney, <br> Sydney, NSW, Australia</li>
                         <li><a href="mailto:jessielee1230@gmail.com">jessielee1230@gmail.com</a></li>
-                        <li><a href="http://jessielee.space" target="_blank">jessielee.space</a></li>
+                        <li><a href="http://leejessie.site" target="_blank">leejessie.site</a></li>
                     </ul>
                 </div>
 
@@ -520,8 +611,10 @@
                     <p>
                         <ul class="fh5co-social-icons">
                             <li><a href="http://twitter.com/" target="_blank"><i class="icon-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="icon-linkedin"></i></a>
+                            </li>
                             <li>
                                 <a href="images/qrcode.jpg" target="_blank"><i class=" icon-chat "></i></a></li>
                         </ul>
